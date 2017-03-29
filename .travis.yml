@@ -6,9 +6,15 @@ php:
     - 7.1
     - hhvm
 
+before_install:
+    - pip install --user codecov
+
 before_script:
     - composer require phpunit/phpunit
     - composer update
+
+after_success:
+    - codecov --file coverage/lcov.info --disable search
 
 matrix:
     allow_failures:
