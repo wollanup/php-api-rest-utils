@@ -8,7 +8,9 @@
 
 namespace Eukles\Util;
 
-class DataIteratorTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class DataIteratorTest extends TestCase
 {
     
     public function testCanAddAndReadData()

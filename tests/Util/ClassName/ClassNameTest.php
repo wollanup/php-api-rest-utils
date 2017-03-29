@@ -11,8 +11,9 @@ namespace Eukles\Util;
 use Eukles\Util\ClassName\ClassName;
 use Eukles\Util\ClassName\FileNotFoundException;
 use Eukles\Util\ClassName\InvalidClassException;
+use PHPUnit\Framework\TestCase;
 
-class ClassNameTest extends \PHPUnit_Framework_TestCase
+class ClassNameTest extends TestCase
 {
     
     public function testGetFromFileWhichIsAClass()
