@@ -20,10 +20,9 @@
     }
   },
   "require": {
-    "psr/container": "^1.0",
-    "phpunit/phpunit": "^6.0"
+    "psr/container": "^1.0"
   },
-  "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js"
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
   }
 }
