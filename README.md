@@ -1,10 +1,11 @@
 # Utils
 
-[![build status](http://gitlab.cybble.dev:8081/api/utils/badges/master/build.svg)](http://gitlab.cybble.dev:8081/api/utils/commits/master)
-[![coverage report](http://gitlab.cybble.dev:8081/api/utils/badges/master/coverage.svg)](http://gitlab.cybble.dev:8081/api/utils/commits/master)
+[![Build Status](https://travis-ci.org/wollanup/php-api-rest-utils.svg?branch=master)](https://travis-ci.org/wollanup/php-api-rest-utils)
+
+This is part of PHP API REST package
 
 ## DataIterator
 Simple implementation of Iterator and ArrayAccess
 
 ## ClassName
-Tool related to class names and namespace
+Tools related to class names and namespace
