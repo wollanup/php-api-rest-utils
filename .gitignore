@@ -1,0 +1,9 @@
+.idea/
+composer.lock
+vendor/
+cache.properties
+build/phpdox
+build/api
+build/coverage
+build/logs
+build/composer.phar
