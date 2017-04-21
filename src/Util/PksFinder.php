@@ -21,7 +21,7 @@ class PksFinder
      *
      * @param array $possiblePkName
      */
-    public function __construct(array $possiblePkName = ['id', 'pk'])
+    public function __construct(array $possiblePkName = ['id'])
     {
         $this->possiblePks = $possiblePkName;
     }
