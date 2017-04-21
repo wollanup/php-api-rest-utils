@@ -10,3 +10,6 @@ Simple implementation of Iterator and ArrayAccess
 
 ## ClassName
 Tools related to class names and namespace
+
+## PksFinder
+In flat or associative array, extract values matching given keys ('id' by default)
